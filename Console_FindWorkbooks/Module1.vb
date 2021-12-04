@@ -10,8 +10,7 @@ Module Module1
 
         Dim oWorkbooks As Excel.Workbooks = ExcelApp.Workbooks
 
-        Dim oWorkbook As Excel.Workbook
-        For Each oWorkbook In oWorkbooks
+        For Each oWorkbook As Excel.Workbook In oWorkbooks
             Console.WriteLine("Workbooks name: " & oWorkbook.Name)
         Next
 
